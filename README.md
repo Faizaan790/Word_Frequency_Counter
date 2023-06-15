@@ -1,0 +1,231 @@
+# Word_Frequency_Counter
+This application gives the frequencies and words listed in order with respect to the frequency (highest to lowest), instead of alphabetical order.
+
+**This is how the output should look like when you run this application locally on your machine.**
+
+File name > PrivacyActOf1974.txt<br>
+Minimum word size> 5<br>
+Minimum word frequency> 10<br>
+The words of length 5 and above,<br>
+with frequency counts of 10 and above:<br>
+Freq Word<br>
+----- -----------------
+00017 about<br>
+00013 access<br>
+00011 accordance<br>
+00018 action<br>
+00023 agencies<br>
+00054 agency<br>
+00026 alien<br>
+00016 applicable<br>
+00018 appropriate<br>
+00010 assist<br>
+00024 benefit<br>
+00012 benefits<br>
+00016 birth<br>
+00010 chief<br>
+00017 citizenship<br>
+00012 civil<br>
+00018 collection<br>
+00012 component<br>
+00016 contained<br>
+00014 contains<br>
+00010 control<br>
+00017 country<br>
+00012 covered<br>
+00013 criminal<br>
+00013 customs<br>
+00025 department<br>
+00010 disclosure<br>
+00012 document<br>
+00042 electronic<br>
+00014 employee<br>
+00038 enforcement<br>
+00039 federal<br>
+00041 files<br>
+00018 following<br>
+00020 foreign<br>
+00025 government<br>
+00018 history<br>
+00025 homeland<br>
+00010 identification<br>
+00119 immigration<br>
+00020 include<br>
+00025 including<br>
+00021 index<br>
+00067 individual<br>
+00034 individuals<br>
+00139 information<br>
+00012 international<br>
+00012 investigation<br>
+00017 local<br>
+00012 location<br>
+00012 maintained<br>
+00014 management<br>
+00013 midas<br>
+00024 national<br>
+00011 nationality<br>
+00012 naturalization<br>
+00020 necessary<br>
+00018 notice<br>
+00025 notices<br>
+00062 number<br>
+00014 office<br>
+00013 officer<br>
+00026 official<br>
+00010 online<br>
+00012 organization<br>
+00056 other<br>
+00036 paper<br>
+00032 privacy<br>
+00014 proceedings<br>
+00022 public<br>
+00023 purpose<br>
+00011 pursuant<br>
+00042 record<br>
+00124 records<br>
+00011 register<br>
+00011 regulations<br>
+00015 related<br>
+00010 relevant<br>
+00025 request<br>
+00017 requests<br>
+00010 retention<br>
+00043 security<br>
+00012 seeking<br>
+00015 services<br>
+00012 specific<br>
+00021 state<br>
+00018 status<br>
+00010 subject<br>
+00010 supporting<br>
+00096 system<br>
+00013 systems<br>
+00010 territorial<br>
+00010 through<br>
+00015 tracking<br>
+00014 tribal<br>
+00029 under<br>
+00011 update<br>
+00067 uscis<br>
+00012 whether<br>
+00011 which<br>
+00015 within<br>
+13496 words in the input file.<br>
+4952 of them are at least 5 characters.<br>
+101 of these occur at least 10 times.<br>
+Program completed.<br>
+and the updated output:<br>
+
+File name > PrivacyActOf1974.txt<br>
+Minimum word size> 5<br>
+Minimum word frequency> 10<br>
+The words of length 5 and above,<br>
+with frequency counts of 10 and above:<br>
+Freq Word<br>
+----- -----------------
+00010 through<br>
+00010 chief<br>
+00010 supporting<br>
+00010 online<br>
+00010 retention<br>
+00010 subject<br>
+00010 territorial<br>
+00010 control<br>
+00010 assist<br>
+00010 identification<br>
+00010 disclosure<br>
+00010 relevant<br>
+00011 accordance<br>
+00011 which<br>
+00011 regulations<br>
+00011 register<br>
+00011 update<br>
+00011 nationality<br>
+00011 pursuant<br>
+00012 covered<br>
+00012 benefits<br>
+00012 investigation<br>
+00012 naturalization<br>
+00012 document<br>
+00012 civil<br>
+00012 maintained<br>
+00012 international<br>
+00012 location<br>
+00012 component<br>
+00012 specific<br>
+00012 whether<br>
+00012 seeking<br>
+00012 organization<br>
+00013 customs<br>
+00013 systems<br>
+00013 officer<br>
+00013 criminal<br>
+00013 midas<br>
+00013 access<br>
+00014 office<br>
+00014 contains<br>
+00014 management<br>
+00014 proceedings<br>
+00014 tribal<br>
+00014 employee<br>
+00015 services<br>
+00015 tracking<br>
+00015 related<br>
+00015 within<br>
+00016 contained<br>
+00016 applicable<br>
+00016 birth<br>
+00017 citizenship<br>
+00017 requests<br>
+00017 country<br>
+00017 local<br>
+00017 about<br>
+00018 action<br>
+00018 notice<br>
+00018 following<br>
+00018 history<br>
+00018 appropriate<br>
+00018 status<br>
+00018 collection<br>
+00020 include<br>
+00020 foreign<br>
+00020 necessary<br>
+00021 index<br>
+00021 state<br>
+00022 public<br>
+00023 purpose<br>
+00023 agencies<br>
+00024 national<br>
+00024 benefit<br>
+00025 department<br>
+00025 homeland<br>
+00025 notices<br>
+00025 government<br>
+00025 request<br>
+00025 including<br>
+00026 alien<br>
+00026 official<br>
+00029 under<br>
+00032 privacy<br>
+00034 individuals<br>
+00036 paper<br>
+00038 enforcement<br>
+00039 federal<br>
+00041 files<br>
+00042 record<br>
+00042 electronic<br>
+00043 security<br>
+00054 agency<br>
+00056 other<br>
+00062 number<br>
+00067 individual<br>
+00067 uscis<br>
+00096 system<br>
+00119 immigration<br>
+00124 records<br>
+00139 information<br>
+13496 words in the input file.<br>
+4952 of them are at least 5 characters.<br>
+101 of these occur at least 10 times.<br>
+Program completed.
